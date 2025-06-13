@@ -11,6 +11,7 @@ In particular, the following components were added:
 - An **InfluxDB** container, to store the data collected from the devices.
 - A **Python Slim** conatiner, whose purpose is exposing a web server which provides some **HATEOAS** (Hypermedia as the Engine of Application State) endpoints to interact with the devices.
 - Three **Lightning Rod** containers, which are used to simulate the devices.
+- Some **scripts** used to deploy the containers correctly.
 In the next sections, the implementation of the communication will be described in detail, focusing on the differences between the clear and secure communication.
 The imagined scenario is composed by:
 - An **HATEOAS** web server, which can be used to interact with the devices.
