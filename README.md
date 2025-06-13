@@ -178,4 +178,4 @@ The plugin feature of the Stack4Things framework allows for easy integration of 
 The overall implementation let the developer to have a rapid and dynamic infrastructure to change and evolve the devices behavior, along with the possibility to switch any device logic on the fly.
 
 # Video Demo
-[![Watch the video](images/9862252.png)](images/ClearCommIOT.mp4)
+[![Watch the video](https://raw.githubusercontent.com/matteopiccadaci/Clear-VS-Secure-communication-using-Stack4Things/blob/main/images/ClearCommIOT.mp4)
