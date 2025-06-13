@@ -172,7 +172,7 @@ The mean time taken for the clear communication is around 0.1 seconds, while the
 The standard deviation for both the types of communication is quite high, as the time taken to perform a request can vary significantly depending on the load of the system and the network conditions.
 This makes the clear communication more suitable for scenarios where low latency is required, while the secure communication is more suitable for scenarios where security is a priority and the overhead introduced by the cryptographic operations is acceptable.
 ## Conclusion
-In this report, we have presented a comparative analysis of the communication using cryptographic protocols in Stack4Things against the clear communication. The implementation of the communication is done using the Stack4Things framework, which provides a set of tools to create and manage WoT devices.
 The use of HATEOAS provides a flexible and dynamic way to interact with the devices, allowing clients to discover available operations dynamically.
 The security of the communication is provided by the use of asymmetric and symmetric cryptographic protocols, along with hashing algorithms to provide integrity. The performance tests show that the secure communication is slower than the clear communication, as expected, due to the overhead introduced by the cryptographic operations.
 The plugin feature of the Stack4Things framework allows for easy integration of WAMP communication, which is used to expose RPCs and interact with the devices.
+The overall implementation let the developer to have a rapid and dynamic infrastructure to change and evolve the devices behavior, along with the possibility to switch any device logic on the fly.
