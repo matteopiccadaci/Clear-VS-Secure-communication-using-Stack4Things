@@ -176,3 +176,6 @@ The use of HATEOAS provides a flexible and dynamic way to interact with the devi
 The security of the communication is provided by the use of asymmetric and symmetric cryptographic protocols, along with hashing algorithms to provide integrity. The performance tests show that the secure communication is slower than the clear communication, as expected, due to the overhead introduced by the cryptographic operations.
 The plugin feature of the Stack4Things framework allows for easy integration of WAMP communication, which is used to expose RPCs and interact with the devices.
 The overall implementation let the developer to have a rapid and dynamic infrastructure to change and evolve the devices behavior, along with the possibility to switch any device logic on the fly.
+
+# Video Demo
+[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
