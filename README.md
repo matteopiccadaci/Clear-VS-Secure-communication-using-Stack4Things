@@ -178,6 +178,8 @@ The plugin feature of the Stack4Things framework allows for easy integration of 
 The overall implementation let the developer to have a rapid and dynamic infrastructure to change and evolve the devices behavior, along with the possibility to switch any device logic on the fly.
 
 # Video Demo
-https://github.com/user-attachments/assets/a73b83dd-a3a9-410a-ae08-2adb411ee839
+https://github.com/user-attachments/assets/c8e737bf-fa82-4989-abbc-d86da6e0bad5
+
+
 
 
