@@ -86,7 +86,7 @@ class Worker(Plugin.Plugin):
 
                 async def clear_write_to_db():
                     msg = json.dumps({"0": self.harvest_data(), "1": board_name})
-                    target_rpc = "iotronic.Board_1_GT.clear_write_to_db"
+                    target_rpc = f"iotronic.{board_GT_name}.clear_write_to_db"
                     try:
                         res = await session.call(target_rpc, msg)
                         LOG.info(f"[RPC] Sent clear msg to {target_rpc}")
@@ -97,7 +97,7 @@ class Worker(Plugin.Plugin):
 
                 async def secure_write_to_db():
                     msg = self.encrypt_msg()
-                    target_rpc = "iotronic.Board_1_GT.secure_write_to_db"
+                    target_rpc = f"iotronic.{board_GT_name}.secure_write_to_db"
                     try:
                         res = await session.call(target_rpc, msg)
                         LOG.info(f"[RPC] Sent encrypted msg to {target_rpc}")
