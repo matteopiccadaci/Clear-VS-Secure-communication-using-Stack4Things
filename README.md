@@ -163,7 +163,7 @@ For a request to be sent, the previous must be completed.
 Here follow the graphical representation of the results obtained from the tests:
 
 <img src="images/Clear Communication.png" alt="Clear communication" width="750"/>
-<img src="images/Secure Communication.png" alt="Secure Communication" width="750"/>
+<img src="images/Secure communication.png" alt="Secure Communication" width="750"/>
 
 It is clear that the secure communication is slower than the clear communication, as expected. The difference in performance is due to the overhead introduced by the cryptographic operations, such as encryption and decryption, which are necessary to provide security to the communication.
 The maximum time taken to perform a request in clear mode is around 0.2 seconds, while the maximum time taken to perform a request in secure mode is around 22 seconds. 
