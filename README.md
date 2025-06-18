@@ -181,5 +181,9 @@ The overall implementation let the developer to have a rapid and dynamic infrast
 https://github.com/user-attachments/assets/c8e737bf-fa82-4989-abbc-d86da6e0bad5
 
 
+## Troubleshooting and known limitations
+- On Windows and Linux machines the "iotronic-conductor" and "iotronic-wagent" may not start automatically. They can be manually started using Docker Desktop.
+- Due to limitations imposed by the manufacturer, on Mac machines the DNS system is avaiable only when interacting via containers (for example, if you visit the http://hateoas_server:4053 page on a web browser, the connection cannot be established. In this case, you should use 0.0.0.0:4053).
+- The Plugin call on any board often results very slow and a pop-up with an error is shown: despite this, the plugins are correctly called (you can check by reading the board's logs).
 
 
