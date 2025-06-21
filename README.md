@@ -22,7 +22,7 @@ The imagined scenario is composed by:
 - One last **Lightning Rod** device named **Gateway**, which exposes two RPCs.
     - **clear_write_to_db**: which receives the mesurament value in clear and writes it to the InfluxDB database.
     - **secure_write_to_db**: which receives the mesurament value encrypted, decrypts it and writes it to the InfluxDB database.
-    - 
+
 The compose deployment has been tested in multiple envirronments: MacOS (ARM), Windows (x86-64), Linux (ARM and x86-64).
 In all of the abovementioned envirronments the deployment worked as intended.
 
