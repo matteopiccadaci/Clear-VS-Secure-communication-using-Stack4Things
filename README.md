@@ -24,7 +24,7 @@ The imagined scenario is composed by:
     - **secure_write_to_db**: which receives the mesurament value encrypted, decrypts it and writes it to the InfluxDB database.
 
 The compose deployment has been tested in multiple environments: MacOS (ARM), Windows (x86-64), Linux (ARM and x86-64).
-In all of the abovementioned environments the deployment worked as intended.
+In all of the above mentioned environments the deployment worked as intended.
 
 ### HATEOAS
 The HATEOAS web server is implemented using Flask, a lightweight web framework for Python. It provides a set of endpoints to interact with the devices and perform operations such as retrieving data and writing to the database.
