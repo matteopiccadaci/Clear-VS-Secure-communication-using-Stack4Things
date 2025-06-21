@@ -22,8 +22,10 @@ The imagined scenario is composed by:
 - One last **Lightning Rod** device named **Gateway**, which exposes two RPCs.
     - **clear_write_to_db**: which receives the mesurament value in clear and writes it to the InfluxDB database.
     - **secure_write_to_db**: which receives the mesurament value encrypted, decrypts it and writes it to the InfluxDB database.
+    - 
 The compose deployment has been tested in multiple envirronments: MacOS (ARM), Windows (x86-64), Linux (ARM and x86-64).
 In all of the abovementioned envirronments the deployment worked as intended.
+
 ### HATEOAS
 The HATEOAS web server is implemented using Flask, a lightweight web framework for Python. It provides a set of endpoints to interact with the devices and perform operations such as retrieving data and writing to the database.
 The choice of using **Hypermedia as the Engine of Application State** (HATEOAS) is to provide a more flexible and dynamic way to interact with the devices: its use let the clients to know nothing about the infrastructure prior to the interaction, which is a pro for the IIoT field, where the devices are often resource-constrained and may not have the ability to store a lot of information about the infrastructure. The use of HATEOAS allows also the server devices to evolve how they work without breaking the clients, as the clients can discover the available operations dynamically.
