@@ -175,6 +175,7 @@ The maximum time taken to perform a request in clear mode is around 0.2 seconds,
 The mean time taken for the clear communication is around 0.1 seconds, while the mean time taken for the secure communication is around 13 seconds.
 The standard deviation for both the types of communication is quite high, as the time taken to perform a request can vary significantly depending on the load of the system and the network conditions.
 This makes the clear communication more suitable for scenarios where low latency is required, while the secure communication is more suitable for scenarios where security is a priority and the overhead introduced by the cryptographic operations is acceptable.
+The time needed for both kind of communications strongly depend on the performance of the machine on which the containers run. For this reason, the results may vary significantly in terms of absolute values: the secure communication will in any case be significantly slower than the clear mode.
 ## Conclusion
 The use of HATEOAS provides a flexible and dynamic way to interact with the devices, allowing clients to discover available operations dynamically.
 The security of the communication is provided by the use of asymmetric and symmetric cryptographic protocols, along with hashing algorithms to provide integrity. The performance tests show that the secure communication is slower than the clear communication, as expected, due to the overhead introduced by the cryptographic operations.
