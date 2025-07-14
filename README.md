@@ -25,7 +25,7 @@ The imagined scenario is composed by:
  
 Here follows the schema of how the communication has been implemented
 
-<img src="images/Schema.png" alt="Clear communication" width="750"/>
+<img src="images/ClearVSSecurecomm.drawio.png" alt="Clear communication" width="750"/>
 
 The compose deployment has been tested in multiple environments: MacOS (ARM), Windows (x86-64), Linux (ARM and x86-64).
 In all of the above mentioned environments the deployment worked as intended.
