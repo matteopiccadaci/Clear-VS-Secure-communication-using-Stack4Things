@@ -1,6 +1,6 @@
 # Clear versus Secure communication using Stack4Things
 ## Introduction
-This repoository contains a comparative analysis of the communication using cryptographic protocols in Stack4Things against the clear communication.
+This repository contains a comparative analysis of the communication using cryptographic protocols in Stack4Things against the clear communication.
 The scenario is determining how the performance of the communication is affected in the Industrial Internet of Things (IIoT) field, where the device aren't able to use a lot of resources, such as memory and processing power.
 In order for the infrastructure to work properly, every communication is performed using the Web of Things (WoT) concept, using an middleware like Crossbar to enable the WAMP (Web Application Messaging Protocol) communication, thus providing the ability to use RPCs (Remote Procedure Calls).
 ## Implementation
@@ -22,6 +22,10 @@ The imagined scenario is composed by:
 - One last **Lightning Rod** device named **Gateway**, which exposes two RPCs.
     - **clear_write_to_db**: which receives the mesurament value in clear and writes it to the InfluxDB database.
     - **secure_write_to_db**: which receives the mesurament value encrypted, decrypts it and writes it to the InfluxDB database.
+ 
+Here follows the schema of how the communication has been implemented
+
+<img src="images/Schema.png" alt="Clear communication" width="750"/>
 
 The compose deployment has been tested in multiple environments: MacOS (ARM), Windows (x86-64), Linux (ARM and x86-64).
 In all of the above mentioned environments the deployment worked as intended.
